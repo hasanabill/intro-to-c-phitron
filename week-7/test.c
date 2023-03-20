@@ -1,9 +1,11 @@
 #include <stdio.h>
 int main()
 {
-    int x = 10, *ptr;
-    ptr = &x;
-    *ptr += 2;
-    printf("%d, %d", *ptr, x);
+
+    int arr[10] = {0};
+    for (int i = 0; i < 10; i++)
+    {
+        printf("%d ", arr[i]);
+    }
     return 0;
 }
